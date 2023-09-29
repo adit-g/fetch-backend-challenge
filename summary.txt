@@ -1,0 +1,21 @@
+1. I chose to use node.js with express because of how quick and easy it is to set up. I had my API running 
+with only 5 lines of code, which let me jump right into the crux of the problem I was trying to solve. I also 
+felt that the lack of boilerplate code would make it easier for the reviewers at Fetch to understand my 
+code. Moreover, NodeJS offers the advantage of high performance, so it is often my go-to for any sort of 
+application.
+
+2. Performance is a huge advantage to my solution. I took special care to make each function as performant as 
+possible to reduce lag in the API. For example, I elected to use a binary search insertion algorithm to keep 
+my transactions array sorted in log(n) time. Any for loops in the code iterate over the fewest elements 
+possible. A possible disadvantage to my solution is that data is not stored in a secure location and does not 
+persist between API restarts. Given more time and resources, I am certain I could implement a secure data 
+storage solution for this project.
+
+3. My latest personal project, a voice assistant named Willow, has definitely been my favorite project so 
+far. Willow is a python-based virtual assistant that responds to voice commands similarly to Amazon's Alexa. 
+I used 2 machine learning models: one for wake word response and one for intent classification. I am 
+especially fond of this project because of how helpful Willow is in my daily life. I currently use this 
+project for all my alarms and timers, but I plan on developing new features in the future (spotify 
+integration would be nice). What I'm really proud of is that I didn't know any python before I started this 
+project. I had to build my machine learning knowledge from the ground-up, which was certainly challenging but 
+truly enjoyable.
