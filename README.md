@@ -1,4 +1,4 @@
-# fetch-rest-api
+# fetch-backend-challenge
 to run this code:
 1. ensure node is installed on your machine (https://nodejs.org/en)
 2. clone this project and navigate to the directory where the project was cloned
