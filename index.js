@@ -1,3 +1,8 @@
+// file: index.js
+// description: hosts REST API endpoints locally
+// author: adit gupta
+// date: 9/29/23
+
 const { addTransaction, spend, getBalances } = require('./data');
 const express = require('express');
 
